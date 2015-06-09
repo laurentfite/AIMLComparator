@@ -12,14 +12,15 @@ You want to compare two chatterbots (basically, two different versions of the sa
 - The correctness of the reply is evaluated with a file containing the expected output.
 
 ## How to use it?
-1. In ``eval.py`` change the following lines
+1. Check you have the PyAIML dependency ``pip freeze | grep aiml``
+2. In ``eval.py`` change the following lines
 ```python
 file1 = "aiml/bot1.aiml"
 file2 = "aiml/bot2.aiml"
 with open('input/meteo.txt') as textfile1, open('expected/meteo.txt') as textfile2:
 ```
 ``file1`` and ``file2`` are the two AIML bots, ``input/meteo.txt`` is the file containing the user input, and ``expected/meteo.txt`` contains the expected output given by the bots.
-2. Simply type ``python eval.py`` in the terminal
+3. Simply type ``python eval.py`` in the terminal
 
 ## Typical output
 
