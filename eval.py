@@ -15,7 +15,7 @@ k1.learn(file1)
 file2 = "aiml/bot2.aiml"
 k2.learn(file2)
 
-with open('input/music.txt') as textfile1, open('expected/music.txt') as textfile2:
+with open('input/meteo.txt') as textfile1, open('expected/meteo.txt') as textfile2:
 
     count = 0
     fail1 = 0
