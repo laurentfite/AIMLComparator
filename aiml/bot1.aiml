@@ -1,0 +1,1430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+<!-- This bot has been extended with AIMLOvergenerator -->
+
+<category>
+<pattern>WEATHERTONIGHT</pattern>
+<template>
+	Il va faire beau ce soir
+</template>
+</category>
+
+<category><pattern>* MÉTÉO * CE * SOIR *</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>* MÉTÉO * CE * SOIR</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>* MÉTÉO * CE SOIR *</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>* MÉTÉO * CE SOIR</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>* MÉTÉO * DE * LA * SOIRÉE *</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>* MÉTÉO * DE * LA * SOIRÉE</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>* MÉTÉO * DE * LA SOIRÉE *</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>* MÉTÉO * DE * LA SOIRÉE</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>* MÉTÉO * DE LA * SOIRÉE *</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>* MÉTÉO * DE LA * SOIRÉE</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>* MÉTÉO * DE LA SOIRÉE *</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>* MÉTÉO * DE LA SOIRÉE</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>* MÉTÉO * DU * SOIR *</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>* MÉTÉO * DU * SOIR</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>* MÉTÉO * DU SOIR *</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>* MÉTÉO * DU SOIR</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>* MÉTÉO CE * SOIR *</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>* MÉTÉO CE * SOIR</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>* MÉTÉO CE SOIR *</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>* MÉTÉO CE SOIR</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>* MÉTÉO DE * LA * SOIRÉE *</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>* MÉTÉO DE * LA * SOIRÉE</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>* MÉTÉO DE * LA SOIRÉE *</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>* MÉTÉO DE * LA SOIRÉE</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>* MÉTÉO DE LA * SOIRÉE *</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>* MÉTÉO DE LA * SOIRÉE</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>* MÉTÉO DE LA SOIRÉE *</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>* MÉTÉO DE LA SOIRÉE</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>* MÉTÉO DU * SOIR *</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>* MÉTÉO DU * SOIR</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>* MÉTÉO DU SOIR *</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>* MÉTÉO DU SOIR</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>* TEMPS * SOIR *</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>* TEMPS * SOIR</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>* TEMPS * SOIRÉE *</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>* TEMPS * SOIRÉE</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>* TEMPS SOIR *</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>* TEMPS SOIR</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>* TEMPS SOIRÉE *</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>* TEMPS SOIRÉE</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>* TEMPÉRATURE * SOIR *</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>* TEMPÉRATURE * SOIR</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>* TEMPÉRATURE * SOIRÉE *</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>* TEMPÉRATURE * SOIRÉE</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>* TEMPÉRATURE SOIR *</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>* TEMPÉRATURE SOIR</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>* TEMPÉRATURE SOIRÉE *</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>* TEMPÉRATURE SOIRÉE</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>* TEMPÉRATURES * SOIR *</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>* TEMPÉRATURES * SOIR</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>* TEMPÉRATURES * SOIRÉE *</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>* TEMPÉRATURES * SOIRÉE</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>* TEMPÉRATURES SOIR *</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>* TEMPÉRATURES SOIR</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>* TEMPÉRATURES SOIRÉE *</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>* TEMPÉRATURES SOIRÉE</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>MÉTÉO * CE * SOIR *</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>MÉTÉO * CE * SOIR</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>MÉTÉO * CE SOIR *</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>MÉTÉO * CE SOIR</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>MÉTÉO * DE * LA * SOIRÉE *</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>MÉTÉO * DE * LA * SOIRÉE</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>MÉTÉO * DE * LA SOIRÉE *</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>MÉTÉO * DE * LA SOIRÉE</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>MÉTÉO * DE LA * SOIRÉE *</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>MÉTÉO * DE LA * SOIRÉE</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>MÉTÉO * DE LA SOIRÉE *</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>MÉTÉO * DE LA SOIRÉE</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>MÉTÉO * DU * SOIR *</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>MÉTÉO * DU * SOIR</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>MÉTÉO * DU SOIR *</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>MÉTÉO * DU SOIR</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>MÉTÉO CE * SOIR *</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>MÉTÉO CE * SOIR</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>MÉTÉO CE SOIR *</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>MÉTÉO CE SOIR</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>MÉTÉO DE * LA * SOIRÉE *</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>MÉTÉO DE * LA * SOIRÉE</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>MÉTÉO DE * LA SOIRÉE *</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>MÉTÉO DE * LA SOIRÉE</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>MÉTÉO DE LA * SOIRÉE *</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>MÉTÉO DE LA * SOIRÉE</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>MÉTÉO DE LA SOIRÉE *</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>MÉTÉO DE LA SOIRÉE</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>MÉTÉO DU * SOIR *</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>MÉTÉO DU * SOIR</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>MÉTÉO DU SOIR *</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>MÉTÉO DU SOIR</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>TEMPS * SOIR *</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>TEMPS * SOIR</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>TEMPS * SOIRÉE *</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>TEMPS * SOIRÉE</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>TEMPS SOIR *</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>TEMPS SOIR</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>TEMPS SOIRÉE *</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>TEMPS SOIRÉE</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>TEMPÉRATURE * SOIR *</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>TEMPÉRATURE * SOIR</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>TEMPÉRATURE * SOIRÉE *</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>TEMPÉRATURE * SOIRÉE</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>TEMPÉRATURE SOIR *</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>TEMPÉRATURE SOIR</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>TEMPÉRATURE SOIRÉE *</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>TEMPÉRATURE SOIRÉE</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>TEMPÉRATURES * SOIR *</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>TEMPÉRATURES * SOIR</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>TEMPÉRATURES * SOIRÉE *</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>TEMPÉRATURES * SOIRÉE</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>TEMPÉRATURES SOIR *</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>TEMPÉRATURES SOIR</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>TEMPÉRATURES SOIRÉE *</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+<category><pattern>TEMPÉRATURES SOIRÉE</pattern><template><srai>WEATHERTONIGHT</srai></template></category>
+
+
+<category>
+<pattern>WEATHERTODAY</pattern>
+<template>
+	Il va faire beau aujourd'hui
+</template>
+</category>
+
+<category><pattern>* MÉTÉO * AUJOURD * HUI *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* MÉTÉO * AUJOURD * HUI</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* MÉTÉO * AUJOURD HUI *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* MÉTÉO * AUJOURD HUI</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* MÉTÉO * CE * MATIN *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* MÉTÉO * CE * MATIN</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* MÉTÉO * CE MATIN *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* MÉTÉO * CE MATIN</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* MÉTÉO * CETTE * APRÈS-MIDI *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* MÉTÉO * CETTE * APRÈS-MIDI</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* MÉTÉO * CETTE APRÈS-MIDI *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* MÉTÉO * CETTE APRÈS-MIDI</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* MÉTÉO * DU * JOUR *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* MÉTÉO * DU * JOUR</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* MÉTÉO * DU JOUR *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* MÉTÉO * DU JOUR</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* MÉTÉO * PRÉVUE *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* MÉTÉO * PRÉVUE</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* MÉTÉO *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* MÉTÉO AUJOURD * HUI *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* MÉTÉO AUJOURD * HUI</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* MÉTÉO AUJOURD HUI *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* MÉTÉO AUJOURD HUI</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* MÉTÉO CE * MATIN *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* MÉTÉO CE * MATIN</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* MÉTÉO CE MATIN *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* MÉTÉO CE MATIN</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* MÉTÉO CETTE * APRÈS-MIDI *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* MÉTÉO CETTE * APRÈS-MIDI</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* MÉTÉO CETTE APRÈS-MIDI *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* MÉTÉO CETTE APRÈS-MIDI</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* MÉTÉO DU * JOUR *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* MÉTÉO DU * JOUR</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* MÉTÉO DU JOUR *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* MÉTÉO DU JOUR</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* MÉTÉO PRÉVUE *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* MÉTÉO PRÉVUE</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* MÉTÉO</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPS * AUJOURD * HUI *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPS * AUJOURD * HUI</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPS * AUJOURD HUI *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPS * AUJOURD HUI</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPS * CE * MATIN *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPS * CE * MATIN</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPS * CE MATIN *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPS * CE MATIN</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPS * CETTE * APRÈS-MIDI *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPS * CETTE * APRÈS-MIDI</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPS * CETTE APRÈS-MIDI *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPS * CETTE APRÈS-MIDI</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPS * FAIT * IL *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPS * FAIT * IL</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPS * FAIT IL *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPS * FAIT IL</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPS * FERA * T * IL *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPS * FERA * T * IL</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPS * FERA * T IL *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPS * FERA * T IL</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPS * FERA T * IL *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPS * FERA T * IL</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPS * FERA T IL *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPS * FERA T IL</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPS * PRÉVU *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPS * PRÉVU</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPS AUJOURD * HUI *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPS AUJOURD * HUI</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPS AUJOURD HUI *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPS AUJOURD HUI</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPS CE * MATIN *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPS CE * MATIN</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPS CE MATIN *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPS CE MATIN</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPS CETTE * APRÈS-MIDI *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPS CETTE * APRÈS-MIDI</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPS CETTE APRÈS-MIDI *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPS CETTE APRÈS-MIDI</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPS FAIT * IL *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPS FAIT * IL</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPS FAIT IL *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPS FAIT IL</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPS FERA * T * IL *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPS FERA * T * IL</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPS FERA * T IL *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPS FERA * T IL</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPS FERA T * IL *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPS FERA T * IL</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPS FERA T IL *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPS FERA T IL</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPS PRÉVU *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPS PRÉVU</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURE * AUJOURD * HUI *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURE * AUJOURD * HUI</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURE * AUJOURD HUI *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURE * AUJOURD HUI</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURE * CE * MATIN *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURE * CE * MATIN</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURE * CE MATIN *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURE * CE MATIN</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURE * CETTE * APRÈS-MIDI *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURE * CETTE * APRÈS-MIDI</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURE * CETTE APRÈS-MIDI *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURE * CETTE APRÈS-MIDI</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURE * FAIT * IL *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURE * FAIT * IL</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURE * FAIT IL *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURE * FAIT IL</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURE * FERA * T * IL *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURE * FERA * T * IL</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURE * FERA * T IL *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURE * FERA * T IL</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURE * FERA T * IL *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURE * FERA T * IL</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURE * FERA T IL *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURE * FERA T IL</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURE * PRÉVUE *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURE * PRÉVUE</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURE AUJOURD * HUI *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURE AUJOURD * HUI</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURE AUJOURD HUI *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURE AUJOURD HUI</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURE CE * MATIN *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURE CE * MATIN</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURE CE MATIN *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURE CE MATIN</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURE CETTE * APRÈS-MIDI *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURE CETTE * APRÈS-MIDI</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURE CETTE APRÈS-MIDI *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURE CETTE APRÈS-MIDI</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURE FAIT * IL *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURE FAIT * IL</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURE FAIT IL *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURE FAIT IL</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURE FERA * T * IL *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURE FERA * T * IL</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURE FERA * T IL *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURE FERA * T IL</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURE FERA T * IL *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURE FERA T * IL</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURE FERA T IL *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURE FERA T IL</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURE PRÉVUE *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURE PRÉVUE</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURES * AUJOURD * HUI *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURES * AUJOURD * HUI</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURES * AUJOURD HUI *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURES * AUJOURD HUI</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURES * CE * MATIN *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURES * CE * MATIN</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURES * CE MATIN *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURES * CE MATIN</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURES * CETTE * APRÈS-MIDI *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURES * CETTE * APRÈS-MIDI</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURES * CETTE APRÈS-MIDI *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURES * CETTE APRÈS-MIDI</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURES * FAIT * IL *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURES * FAIT * IL</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURES * FAIT IL *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURES * FAIT IL</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURES * FERA * T * IL *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURES * FERA * T * IL</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURES * FERA * T IL *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURES * FERA * T IL</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURES * FERA T * IL *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURES * FERA T * IL</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURES * FERA T IL *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURES * FERA T IL</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURES * PRÉVUES *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURES * PRÉVUES</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURES AUJOURD * HUI *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURES AUJOURD * HUI</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURES AUJOURD HUI *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURES AUJOURD HUI</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURES CE * MATIN *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURES CE * MATIN</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURES CE MATIN *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURES CE MATIN</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURES CETTE * APRÈS-MIDI *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURES CETTE * APRÈS-MIDI</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURES CETTE APRÈS-MIDI *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURES CETTE APRÈS-MIDI</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURES FAIT * IL *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURES FAIT * IL</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURES FAIT IL *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURES FAIT IL</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURES FERA * T * IL *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURES FERA * T * IL</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURES FERA * T IL *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURES FERA * T IL</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURES FERA T * IL *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURES FERA T * IL</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURES FERA T IL *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURES FERA T IL</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURES PRÉVUES *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>* TEMPÉRATURES PRÉVUES</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>MÉTÉO * AUJOURD * HUI *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>MÉTÉO * AUJOURD * HUI</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>MÉTÉO * AUJOURD HUI *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>MÉTÉO * AUJOURD HUI</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>MÉTÉO * CE * MATIN *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>MÉTÉO * CE * MATIN</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>MÉTÉO * CE MATIN *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>MÉTÉO * CE MATIN</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>MÉTÉO * CETTE * APRÈS-MIDI *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>MÉTÉO * CETTE * APRÈS-MIDI</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>MÉTÉO * CETTE APRÈS-MIDI *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>MÉTÉO * CETTE APRÈS-MIDI</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>MÉTÉO * DU * JOUR *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>MÉTÉO * DU * JOUR</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>MÉTÉO * DU JOUR *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>MÉTÉO * DU JOUR</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>MÉTÉO * PRÉVUE *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>MÉTÉO * PRÉVUE</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>MÉTÉO *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>MÉTÉO AUJOURD * HUI *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>MÉTÉO AUJOURD * HUI</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>MÉTÉO AUJOURD HUI *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>MÉTÉO AUJOURD HUI</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>MÉTÉO CE * MATIN *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>MÉTÉO CE * MATIN</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>MÉTÉO CE MATIN *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>MÉTÉO CE MATIN</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>MÉTÉO CETTE * APRÈS-MIDI *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>MÉTÉO CETTE * APRÈS-MIDI</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>MÉTÉO CETTE APRÈS-MIDI *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>MÉTÉO CETTE APRÈS-MIDI</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>MÉTÉO DU * JOUR *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>MÉTÉO DU * JOUR</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>MÉTÉO DU JOUR *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>MÉTÉO DU JOUR</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>MÉTÉO PRÉVUE *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>MÉTÉO PRÉVUE</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>MÉTÉO</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPS * AUJOURD * HUI *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPS * AUJOURD * HUI</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPS * AUJOURD HUI *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPS * AUJOURD HUI</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPS * CE * MATIN *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPS * CE * MATIN</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPS * CE MATIN *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPS * CE MATIN</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPS * CETTE * APRÈS-MIDI *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPS * CETTE * APRÈS-MIDI</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPS * CETTE APRÈS-MIDI *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPS * CETTE APRÈS-MIDI</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPS * FAIT * IL *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPS * FAIT * IL</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPS * FAIT IL *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPS * FAIT IL</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPS * FERA * T * IL *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPS * FERA * T * IL</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPS * FERA * T IL *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPS * FERA * T IL</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPS * FERA T * IL *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPS * FERA T * IL</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPS * FERA T IL *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPS * FERA T IL</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPS * PRÉVU *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPS * PRÉVU</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPS AUJOURD * HUI *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPS AUJOURD * HUI</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPS AUJOURD HUI *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPS AUJOURD HUI</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPS CE * MATIN *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPS CE * MATIN</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPS CE MATIN *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPS CE MATIN</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPS CETTE * APRÈS-MIDI *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPS CETTE * APRÈS-MIDI</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPS CETTE APRÈS-MIDI *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPS CETTE APRÈS-MIDI</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPS FAIT * IL *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPS FAIT * IL</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPS FAIT IL *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPS FAIT IL</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPS FERA * T * IL *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPS FERA * T * IL</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPS FERA * T IL *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPS FERA * T IL</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPS FERA T * IL *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPS FERA T * IL</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPS FERA T IL *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPS FERA T IL</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPS PRÉVU *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPS PRÉVU</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURE * AUJOURD * HUI *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURE * AUJOURD * HUI</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURE * AUJOURD HUI *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURE * AUJOURD HUI</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURE * CE * MATIN *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURE * CE * MATIN</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURE * CE MATIN *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURE * CE MATIN</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURE * CETTE * APRÈS-MIDI *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURE * CETTE * APRÈS-MIDI</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURE * CETTE APRÈS-MIDI *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURE * CETTE APRÈS-MIDI</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURE * FAIT * IL *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURE * FAIT * IL</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURE * FAIT IL *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURE * FAIT IL</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURE * FERA * T * IL *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURE * FERA * T * IL</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURE * FERA * T IL *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURE * FERA * T IL</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURE * FERA T * IL *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURE * FERA T * IL</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURE * FERA T IL *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURE * FERA T IL</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURE * PRÉVUE *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURE * PRÉVUE</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURE AUJOURD * HUI *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURE AUJOURD * HUI</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURE AUJOURD HUI *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURE AUJOURD HUI</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURE CE * MATIN *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURE CE * MATIN</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURE CE MATIN *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURE CE MATIN</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURE CETTE * APRÈS-MIDI *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURE CETTE * APRÈS-MIDI</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURE CETTE APRÈS-MIDI *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURE CETTE APRÈS-MIDI</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURE FAIT * IL *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURE FAIT * IL</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURE FAIT IL *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURE FAIT IL</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURE FERA * T * IL *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURE FERA * T * IL</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURE FERA * T IL *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURE FERA * T IL</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURE FERA T * IL *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURE FERA T * IL</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURE FERA T IL *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURE FERA T IL</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURE PRÉVUE *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURE PRÉVUE</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURES * AUJOURD * HUI *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURES * AUJOURD * HUI</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURES * AUJOURD HUI *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURES * AUJOURD HUI</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURES * CE * MATIN *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURES * CE * MATIN</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURES * CE MATIN *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURES * CE MATIN</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURES * CETTE * APRÈS-MIDI *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURES * CETTE * APRÈS-MIDI</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURES * CETTE APRÈS-MIDI *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURES * CETTE APRÈS-MIDI</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURES * FAIT * IL *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURES * FAIT * IL</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURES * FAIT IL *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURES * FAIT IL</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURES * FERA * T * IL *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURES * FERA * T * IL</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURES * FERA * T IL *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURES * FERA * T IL</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURES * FERA T * IL *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURES * FERA T * IL</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURES * FERA T IL *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURES * FERA T IL</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURES * PRÉVUES *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURES * PRÉVUES</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURES AUJOURD * HUI *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURES AUJOURD * HUI</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURES AUJOURD HUI *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURES AUJOURD HUI</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURES CE * MATIN *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURES CE * MATIN</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURES CE MATIN *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURES CE MATIN</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURES CETTE * APRÈS-MIDI *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURES CETTE * APRÈS-MIDI</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURES CETTE APRÈS-MIDI *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURES CETTE APRÈS-MIDI</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURES FAIT * IL *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURES FAIT * IL</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURES FAIT IL *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURES FAIT IL</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURES FERA * T * IL *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURES FERA * T * IL</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURES FERA * T IL *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURES FERA * T IL</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURES FERA T * IL *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURES FERA T * IL</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURES FERA T IL *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURES FERA T IL</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURES PRÉVUES *</pattern><template><srai>WEATHERTODAY</srai></template></category>
+<category><pattern>TEMPÉRATURES PRÉVUES</pattern><template><srai>WEATHERTODAY</srai></template></category>
+
+
+<category>
+<pattern>LOCATED8WEATHERTONIGHT *</pattern>
+<template>
+Ce soir, à <star/>, il fera beau!
+</template>
+</category>
+
+<category><pattern>* MÉTÉO * SOIR * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="4"/></srai></template></category>
+<category><pattern>* MÉTÉO * SOIR À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* MÉTÉO * SOIRÉE * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="4"/></srai></template></category>
+<category><pattern>* MÉTÉO * SOIRÉE À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* MÉTÉO * À * CE * SOIR *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* MÉTÉO * À * CE * SOIR</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* MÉTÉO * À * CE SOIR *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* MÉTÉO * À * CE SOIR</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* MÉTÉO * À * DE * LA * SOIRÉE *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* MÉTÉO * À * DE * LA * SOIRÉE</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* MÉTÉO * À * DE * LA SOIRÉE *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* MÉTÉO * À * DE * LA SOIRÉE</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* MÉTÉO * À * DE LA * SOIRÉE *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* MÉTÉO * À * DE LA * SOIRÉE</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* MÉTÉO * À * DE LA SOIRÉE *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* MÉTÉO * À * DE LA SOIRÉE</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* MÉTÉO * À * DU * SOIR *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* MÉTÉO * À * DU * SOIR</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* MÉTÉO * À * DU SOIR *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* MÉTÉO * À * DU SOIR</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* MÉTÉO SOIR * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* MÉTÉO SOIR À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>* MÉTÉO SOIRÉE * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* MÉTÉO SOIRÉE À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>* MÉTÉO À * CE * SOIR *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>* MÉTÉO À * CE * SOIR</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>* MÉTÉO À * CE SOIR *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>* MÉTÉO À * CE SOIR</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>* MÉTÉO À * DE * LA * SOIRÉE *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>* MÉTÉO À * DE * LA * SOIRÉE</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>* MÉTÉO À * DE * LA SOIRÉE *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>* MÉTÉO À * DE * LA SOIRÉE</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>* MÉTÉO À * DE LA * SOIRÉE *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>* MÉTÉO À * DE LA * SOIRÉE</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>* MÉTÉO À * DE LA SOIRÉE *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>* MÉTÉO À * DE LA SOIRÉE</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>* MÉTÉO À * DU * SOIR *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>* MÉTÉO À * DU * SOIR</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>* MÉTÉO À * DU SOIR *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>* MÉTÉO À * DU SOIR</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>* TEMPS * CE * SOIR * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="5"/></srai></template></category>
+<category><pattern>* TEMPS * CE * SOIR À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="4"/></srai></template></category>
+<category><pattern>* TEMPS * CE SOIR * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="4"/></srai></template></category>
+<category><pattern>* TEMPS * CE SOIR À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* TEMPS * DE * LA * SOIRÉE * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="6"/></srai></template></category>
+<category><pattern>* TEMPS * DE * LA * SOIRÉE À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="5"/></srai></template></category>
+<category><pattern>* TEMPS * DE * LA SOIRÉE * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="5"/></srai></template></category>
+<category><pattern>* TEMPS * DE * LA SOIRÉE À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="4"/></srai></template></category>
+<category><pattern>* TEMPS * DE LA * SOIRÉE * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="5"/></srai></template></category>
+<category><pattern>* TEMPS * DE LA * SOIRÉE À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="4"/></srai></template></category>
+<category><pattern>* TEMPS * DE LA SOIRÉE * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="4"/></srai></template></category>
+<category><pattern>* TEMPS * DE LA SOIRÉE À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* TEMPS * SOIR * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="4"/></srai></template></category>
+<category><pattern>* TEMPS * SOIR À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* TEMPS * SOIRÉE * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="4"/></srai></template></category>
+<category><pattern>* TEMPS * SOIRÉE À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* TEMPS * À * CE * SOIR *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* TEMPS * À * CE * SOIR</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* TEMPS * À * CE SOIR *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* TEMPS * À * CE SOIR</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* TEMPS * À * DE * LA * SOIRÉE *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* TEMPS * À * DE * LA * SOIRÉE</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* TEMPS * À * DE * LA SOIRÉE *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* TEMPS * À * DE * LA SOIRÉE</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* TEMPS * À * DE LA * SOIRÉE *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* TEMPS * À * DE LA * SOIRÉE</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* TEMPS * À * DE LA SOIRÉE *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* TEMPS * À * DE LA SOIRÉE</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* TEMPS * À * DU * SOIR *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* TEMPS * À * DU * SOIR</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* TEMPS * À * DU SOIR *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* TEMPS * À * DU SOIR</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* TEMPS * À * SOIR *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* TEMPS * À * SOIR</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* TEMPS CE * SOIR * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="4"/></srai></template></category>
+<category><pattern>* TEMPS CE * SOIR À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* TEMPS CE SOIR * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* TEMPS CE SOIR À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>* TEMPS DE * LA * SOIRÉE * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="5"/></srai></template></category>
+<category><pattern>* TEMPS DE * LA * SOIRÉE À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="4"/></srai></template></category>
+<category><pattern>* TEMPS DE * LA SOIRÉE * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="4"/></srai></template></category>
+<category><pattern>* TEMPS DE * LA SOIRÉE À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* TEMPS DE LA * SOIRÉE * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="4"/></srai></template></category>
+<category><pattern>* TEMPS DE LA * SOIRÉE À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* TEMPS DE LA SOIRÉE * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* TEMPS DE LA SOIRÉE À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>* TEMPS SOIR * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* TEMPS SOIR À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>* TEMPS SOIRÉE * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* TEMPS SOIRÉE À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>* TEMPS À * CE * SOIR *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>* TEMPS À * CE * SOIR</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>* TEMPS À * CE SOIR *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>* TEMPS À * CE SOIR</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>* TEMPS À * DE * LA * SOIRÉE *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>* TEMPS À * DE * LA * SOIRÉE</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>* TEMPS À * DE * LA SOIRÉE *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>* TEMPS À * DE * LA SOIRÉE</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>* TEMPS À * DE LA * SOIRÉE *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>* TEMPS À * DE LA * SOIRÉE</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>* TEMPS À * DE LA SOIRÉE *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>* TEMPS À * DE LA SOIRÉE</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>* TEMPS À * DU * SOIR *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>* TEMPS À * DU * SOIR</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>* TEMPS À * DU SOIR *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>* TEMPS À * DU SOIR</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>* TEMPS À * SOIR *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>* TEMPS À * SOIR</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE * CE * SOIR * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="5"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE * CE * SOIR À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="4"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE * CE SOIR * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="4"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE * CE SOIR À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE * DE * LA * SOIRÉE * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="6"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE * DE * LA * SOIRÉE À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="5"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE * DE * LA SOIRÉE * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="5"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE * DE * LA SOIRÉE À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="4"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE * DE LA * SOIRÉE * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="5"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE * DE LA * SOIRÉE À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="4"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE * DE LA SOIRÉE * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="4"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE * DE LA SOIRÉE À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE * DU * SOIR * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="5"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE * DU * SOIR À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="4"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE * DU SOIR * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="4"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE * DU SOIR À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE * À * CE * SOIR *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE * À * CE * SOIR</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE * À * CE SOIR *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE * À * CE SOIR</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE * À * DE * LA * SOIRÉE *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE * À * DE * LA * SOIRÉE</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE * À * DE * LA SOIRÉE *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE * À * DE * LA SOIRÉE</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE * À * DE LA * SOIRÉE *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE * À * DE LA * SOIRÉE</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE * À * DE LA SOIRÉE *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE * À * DE LA SOIRÉE</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE * À * DU * SOIR *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE * À * DU * SOIR</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE * À * DU SOIR *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE * À * DU SOIR</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE CE * SOIR * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="4"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE CE * SOIR À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE CE SOIR * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE CE SOIR À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE DE * LA * SOIRÉE * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="5"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE DE * LA * SOIRÉE À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="4"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE DE * LA SOIRÉE * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="4"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE DE * LA SOIRÉE À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE DE LA * SOIRÉE * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="4"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE DE LA * SOIRÉE À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE DE LA SOIRÉE * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE DE LA SOIRÉE À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE DU * SOIR * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="4"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE DU * SOIR À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE DU SOIR * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE DU SOIR À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE À * CE * SOIR *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE À * CE * SOIR</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE À * CE SOIR *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE À * CE SOIR</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE À * DE * LA * SOIRÉE *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE À * DE * LA * SOIRÉE</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE À * DE * LA SOIRÉE *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE À * DE * LA SOIRÉE</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE À * DE LA * SOIRÉE *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE À * DE LA * SOIRÉE</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE À * DE LA SOIRÉE *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE À * DE LA SOIRÉE</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE À * DU * SOIR *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE À * DU * SOIR</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE À * DU SOIR *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE À * DU SOIR</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES * CE * SOIR * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="5"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES * CE * SOIR À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="4"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES * CE SOIR * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="4"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES * CE SOIR À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES * DE * LA * SOIRÉE * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="6"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES * DE * LA * SOIRÉE À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="5"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES * DE * LA SOIRÉE * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="5"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES * DE * LA SOIRÉE À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="4"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES * DE LA * SOIRÉE * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="5"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES * DE LA * SOIRÉE À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="4"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES * DE LA SOIRÉE * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="4"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES * DE LA SOIRÉE À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES * DU * SOIR * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="5"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES * DU * SOIR À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="4"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES * DU SOIR * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="4"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES * DU SOIR À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES * À * CE * SOIR *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES * À * CE * SOIR</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES * À * CE SOIR *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES * À * CE SOIR</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES * À * DE * LA * SOIRÉE *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES * À * DE * LA * SOIRÉE</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES * À * DE * LA SOIRÉE *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES * À * DE * LA SOIRÉE</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES * À * DE LA * SOIRÉE *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES * À * DE LA * SOIRÉE</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES * À * DE LA SOIRÉE *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES * À * DE LA SOIRÉE</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES * À * DU * SOIR *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES * À * DU * SOIR</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES * À * DU SOIR *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES * À * DU SOIR</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES CE * SOIR * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="4"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES CE * SOIR À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES CE SOIR * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES CE SOIR À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES DE * LA * SOIRÉE * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="5"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES DE * LA * SOIRÉE À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="4"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES DE * LA SOIRÉE * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="4"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES DE * LA SOIRÉE À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES DE LA * SOIRÉE * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="4"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES DE LA * SOIRÉE À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES DE LA SOIRÉE * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES DE LA SOIRÉE À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES DU * SOIR * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="4"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES DU * SOIR À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES DU SOIR * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES DU SOIR À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES À * CE * SOIR *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES À * CE * SOIR</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES À * CE SOIR *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES À * CE SOIR</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES À * DE * LA * SOIRÉE *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES À * DE * LA * SOIRÉE</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES À * DE * LA SOIRÉE *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES À * DE * LA SOIRÉE</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES À * DE LA * SOIRÉE *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES À * DE LA * SOIRÉE</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES À * DE LA SOIRÉE *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES À * DE LA SOIRÉE</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES À * DU * SOIR *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES À * DU * SOIR</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES À * DU SOIR *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES À * DU SOIR</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>MÉTÉO * SOIR * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>MÉTÉO * SOIR À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>MÉTÉO * SOIRÉE * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>MÉTÉO * SOIRÉE À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>MÉTÉO * À * CE * SOIR *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>MÉTÉO * À * CE * SOIR</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>MÉTÉO * À * CE SOIR *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>MÉTÉO * À * CE SOIR</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>MÉTÉO * À * DE * LA * SOIRÉE *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>MÉTÉO * À * DE * LA * SOIRÉE</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>MÉTÉO * À * DE * LA SOIRÉE *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>MÉTÉO * À * DE * LA SOIRÉE</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>MÉTÉO * À * DE LA * SOIRÉE *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>MÉTÉO * À * DE LA * SOIRÉE</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>MÉTÉO * À * DE LA SOIRÉE *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>MÉTÉO * À * DE LA SOIRÉE</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>MÉTÉO * À * DU * SOIR *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>MÉTÉO * À * DU * SOIR</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>MÉTÉO * À * DU SOIR *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>MÉTÉO * À * DU SOIR</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>MÉTÉO SOIR * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>MÉTÉO SOIR À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="1"/></srai></template></category>
+<category><pattern>MÉTÉO SOIRÉE * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>MÉTÉO SOIRÉE À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="1"/></srai></template></category>
+<category><pattern>MÉTÉO À * CE * SOIR *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="1"/></srai></template></category>
+<category><pattern>MÉTÉO À * CE * SOIR</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="1"/></srai></template></category>
+<category><pattern>MÉTÉO À * CE SOIR *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="1"/></srai></template></category>
+<category><pattern>MÉTÉO À * CE SOIR</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="1"/></srai></template></category>
+<category><pattern>MÉTÉO À * DE * LA * SOIRÉE *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="1"/></srai></template></category>
+<category><pattern>MÉTÉO À * DE * LA * SOIRÉE</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="1"/></srai></template></category>
+<category><pattern>MÉTÉO À * DE * LA SOIRÉE *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="1"/></srai></template></category>
+<category><pattern>MÉTÉO À * DE * LA SOIRÉE</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="1"/></srai></template></category>
+<category><pattern>MÉTÉO À * DE LA * SOIRÉE *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="1"/></srai></template></category>
+<category><pattern>MÉTÉO À * DE LA * SOIRÉE</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="1"/></srai></template></category>
+<category><pattern>MÉTÉO À * DE LA SOIRÉE *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="1"/></srai></template></category>
+<category><pattern>MÉTÉO À * DE LA SOIRÉE</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="1"/></srai></template></category>
+<category><pattern>MÉTÉO À * DU * SOIR *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="1"/></srai></template></category>
+<category><pattern>MÉTÉO À * DU * SOIR</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="1"/></srai></template></category>
+<category><pattern>MÉTÉO À * DU SOIR *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="1"/></srai></template></category>
+<category><pattern>MÉTÉO À * DU SOIR</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="1"/></srai></template></category>
+<category><pattern>TEMPS * CE * SOIR * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="4"/></srai></template></category>
+<category><pattern>TEMPS * CE * SOIR À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>TEMPS * CE SOIR * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>TEMPS * CE SOIR À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>TEMPS * DE * LA * SOIRÉE * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="5"/></srai></template></category>
+<category><pattern>TEMPS * DE * LA * SOIRÉE À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="4"/></srai></template></category>
+<category><pattern>TEMPS * DE * LA SOIRÉE * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="4"/></srai></template></category>
+<category><pattern>TEMPS * DE * LA SOIRÉE À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>TEMPS * DE LA * SOIRÉE * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="4"/></srai></template></category>
+<category><pattern>TEMPS * DE LA * SOIRÉE À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>TEMPS * DE LA SOIRÉE * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>TEMPS * DE LA SOIRÉE À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>TEMPS * SOIR * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>TEMPS * SOIR À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>TEMPS * SOIRÉE * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>TEMPS * SOIRÉE À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>TEMPS * À * CE * SOIR *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>TEMPS * À * CE * SOIR</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>TEMPS * À * CE SOIR *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>TEMPS * À * CE SOIR</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>TEMPS * À * DE * LA * SOIRÉE *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>TEMPS * À * DE * LA * SOIRÉE</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>TEMPS * À * DE * LA SOIRÉE *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>TEMPS * À * DE * LA SOIRÉE</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>TEMPS * À * DE LA * SOIRÉE *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>TEMPS * À * DE LA * SOIRÉE</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>TEMPS * À * DE LA SOIRÉE *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>TEMPS * À * DE LA SOIRÉE</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>TEMPS * À * DU * SOIR *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>TEMPS * À * DU * SOIR</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>TEMPS * À * DU SOIR *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>TEMPS * À * DU SOIR</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>TEMPS * À * SOIR *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>TEMPS * À * SOIR</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>TEMPS CE * SOIR * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>TEMPS CE * SOIR À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>TEMPS CE SOIR * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>TEMPS CE SOIR À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="1"/></srai></template></category>
+<category><pattern>TEMPS DE * LA * SOIRÉE * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="4"/></srai></template></category>
+<category><pattern>TEMPS DE * LA * SOIRÉE À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>TEMPS DE * LA SOIRÉE * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>TEMPS DE * LA SOIRÉE À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>TEMPS DE LA * SOIRÉE * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>TEMPS DE LA * SOIRÉE À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>TEMPS DE LA SOIRÉE * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>TEMPS DE LA SOIRÉE À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="1"/></srai></template></category>
+<category><pattern>TEMPS SOIR * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>TEMPS SOIR À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="1"/></srai></template></category>
+<category><pattern>TEMPS SOIRÉE * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>TEMPS SOIRÉE À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="1"/></srai></template></category>
+<category><pattern>TEMPS À * CE * SOIR *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="1"/></srai></template></category>
+<category><pattern>TEMPS À * CE * SOIR</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="1"/></srai></template></category>
+<category><pattern>TEMPS À * CE SOIR *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="1"/></srai></template></category>
+<category><pattern>TEMPS À * CE SOIR</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="1"/></srai></template></category>
+<category><pattern>TEMPS À * DE * LA * SOIRÉE *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="1"/></srai></template></category>
+<category><pattern>TEMPS À * DE * LA * SOIRÉE</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="1"/></srai></template></category>
+<category><pattern>TEMPS À * DE * LA SOIRÉE *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="1"/></srai></template></category>
+<category><pattern>TEMPS À * DE * LA SOIRÉE</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="1"/></srai></template></category>
+<category><pattern>TEMPS À * DE LA * SOIRÉE *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="1"/></srai></template></category>
+<category><pattern>TEMPS À * DE LA * SOIRÉE</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="1"/></srai></template></category>
+<category><pattern>TEMPS À * DE LA SOIRÉE *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="1"/></srai></template></category>
+<category><pattern>TEMPS À * DE LA SOIRÉE</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="1"/></srai></template></category>
+<category><pattern>TEMPS À * DU * SOIR *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="1"/></srai></template></category>
+<category><pattern>TEMPS À * DU * SOIR</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="1"/></srai></template></category>
+<category><pattern>TEMPS À * DU SOIR *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="1"/></srai></template></category>
+<category><pattern>TEMPS À * DU SOIR</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="1"/></srai></template></category>
+<category><pattern>TEMPS À * SOIR *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="1"/></srai></template></category>
+<category><pattern>TEMPS À * SOIR</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="1"/></srai></template></category>
+<category><pattern>TEMPÉRATURE * CE * SOIR * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="4"/></srai></template></category>
+<category><pattern>TEMPÉRATURE * CE * SOIR À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>TEMPÉRATURE * CE SOIR * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>TEMPÉRATURE * CE SOIR À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURE * DE * LA * SOIRÉE * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="5"/></srai></template></category>
+<category><pattern>TEMPÉRATURE * DE * LA * SOIRÉE À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="4"/></srai></template></category>
+<category><pattern>TEMPÉRATURE * DE * LA SOIRÉE * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="4"/></srai></template></category>
+<category><pattern>TEMPÉRATURE * DE * LA SOIRÉE À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>TEMPÉRATURE * DE LA * SOIRÉE * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="4"/></srai></template></category>
+<category><pattern>TEMPÉRATURE * DE LA * SOIRÉE À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>TEMPÉRATURE * DE LA SOIRÉE * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>TEMPÉRATURE * DE LA SOIRÉE À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURE * DU * SOIR * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="4"/></srai></template></category>
+<category><pattern>TEMPÉRATURE * DU * SOIR À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>TEMPÉRATURE * DU SOIR * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>TEMPÉRATURE * DU SOIR À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURE * À * CE * SOIR *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURE * À * CE * SOIR</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURE * À * CE SOIR *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURE * À * CE SOIR</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURE * À * DE * LA * SOIRÉE *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURE * À * DE * LA * SOIRÉE</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURE * À * DE * LA SOIRÉE *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURE * À * DE * LA SOIRÉE</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURE * À * DE LA * SOIRÉE *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURE * À * DE LA * SOIRÉE</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURE * À * DE LA SOIRÉE *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURE * À * DE LA SOIRÉE</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURE * À * DU * SOIR *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURE * À * DU * SOIR</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURE * À * DU SOIR *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURE * À * DU SOIR</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURE CE * SOIR * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>TEMPÉRATURE CE * SOIR À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURE CE SOIR * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURE CE SOIR À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="1"/></srai></template></category>
+<category><pattern>TEMPÉRATURE DE * LA * SOIRÉE * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="4"/></srai></template></category>
+<category><pattern>TEMPÉRATURE DE * LA * SOIRÉE À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>TEMPÉRATURE DE * LA SOIRÉE * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>TEMPÉRATURE DE * LA SOIRÉE À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURE DE LA * SOIRÉE * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>TEMPÉRATURE DE LA * SOIRÉE À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURE DE LA SOIRÉE * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURE DE LA SOIRÉE À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="1"/></srai></template></category>
+<category><pattern>TEMPÉRATURE DU * SOIR * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>TEMPÉRATURE DU * SOIR À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURE DU SOIR * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURE DU SOIR À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="1"/></srai></template></category>
+<category><pattern>TEMPÉRATURE À * CE * SOIR *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="1"/></srai></template></category>
+<category><pattern>TEMPÉRATURE À * CE * SOIR</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="1"/></srai></template></category>
+<category><pattern>TEMPÉRATURE À * CE SOIR *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="1"/></srai></template></category>
+<category><pattern>TEMPÉRATURE À * CE SOIR</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="1"/></srai></template></category>
+<category><pattern>TEMPÉRATURE À * DE * LA * SOIRÉE *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="1"/></srai></template></category>
+<category><pattern>TEMPÉRATURE À * DE * LA * SOIRÉE</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="1"/></srai></template></category>
+<category><pattern>TEMPÉRATURE À * DE * LA SOIRÉE *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="1"/></srai></template></category>
+<category><pattern>TEMPÉRATURE À * DE * LA SOIRÉE</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="1"/></srai></template></category>
+<category><pattern>TEMPÉRATURE À * DE LA * SOIRÉE *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="1"/></srai></template></category>
+<category><pattern>TEMPÉRATURE À * DE LA * SOIRÉE</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="1"/></srai></template></category>
+<category><pattern>TEMPÉRATURE À * DE LA SOIRÉE *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="1"/></srai></template></category>
+<category><pattern>TEMPÉRATURE À * DE LA SOIRÉE</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="1"/></srai></template></category>
+<category><pattern>TEMPÉRATURE À * DU * SOIR *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="1"/></srai></template></category>
+<category><pattern>TEMPÉRATURE À * DU * SOIR</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="1"/></srai></template></category>
+<category><pattern>TEMPÉRATURE À * DU SOIR *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="1"/></srai></template></category>
+<category><pattern>TEMPÉRATURE À * DU SOIR</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="1"/></srai></template></category>
+<category><pattern>TEMPÉRATURES * CE * SOIR * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="4"/></srai></template></category>
+<category><pattern>TEMPÉRATURES * CE * SOIR À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>TEMPÉRATURES * CE SOIR * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>TEMPÉRATURES * CE SOIR À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURES * DE * LA * SOIRÉE * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="5"/></srai></template></category>
+<category><pattern>TEMPÉRATURES * DE * LA * SOIRÉE À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="4"/></srai></template></category>
+<category><pattern>TEMPÉRATURES * DE * LA SOIRÉE * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="4"/></srai></template></category>
+<category><pattern>TEMPÉRATURES * DE * LA SOIRÉE À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>TEMPÉRATURES * DE LA * SOIRÉE * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="4"/></srai></template></category>
+<category><pattern>TEMPÉRATURES * DE LA * SOIRÉE À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>TEMPÉRATURES * DE LA SOIRÉE * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>TEMPÉRATURES * DE LA SOIRÉE À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURES * DU * SOIR * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="4"/></srai></template></category>
+<category><pattern>TEMPÉRATURES * DU * SOIR À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>TEMPÉRATURES * DU SOIR * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>TEMPÉRATURES * DU SOIR À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURES * À * CE * SOIR *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURES * À * CE * SOIR</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURES * À * CE SOIR *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURES * À * CE SOIR</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURES * À * DE * LA * SOIRÉE *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURES * À * DE * LA * SOIRÉE</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURES * À * DE * LA SOIRÉE *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURES * À * DE * LA SOIRÉE</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURES * À * DE LA * SOIRÉE *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURES * À * DE LA * SOIRÉE</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURES * À * DE LA SOIRÉE *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURES * À * DE LA SOIRÉE</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURES * À * DU * SOIR *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURES * À * DU * SOIR</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURES * À * DU SOIR *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURES * À * DU SOIR</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURES CE * SOIR * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>TEMPÉRATURES CE * SOIR À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURES CE SOIR * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURES CE SOIR À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="1"/></srai></template></category>
+<category><pattern>TEMPÉRATURES DE * LA * SOIRÉE * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="4"/></srai></template></category>
+<category><pattern>TEMPÉRATURES DE * LA * SOIRÉE À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>TEMPÉRATURES DE * LA SOIRÉE * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>TEMPÉRATURES DE * LA SOIRÉE À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURES DE LA * SOIRÉE * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>TEMPÉRATURES DE LA * SOIRÉE À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURES DE LA SOIRÉE * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURES DE LA SOIRÉE À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="1"/></srai></template></category>
+<category><pattern>TEMPÉRATURES DU * SOIR * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="3"/></srai></template></category>
+<category><pattern>TEMPÉRATURES DU * SOIR À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURES DU SOIR * À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURES DU SOIR À *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="1"/></srai></template></category>
+<category><pattern>TEMPÉRATURES À * CE * SOIR *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="1"/></srai></template></category>
+<category><pattern>TEMPÉRATURES À * CE * SOIR</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="1"/></srai></template></category>
+<category><pattern>TEMPÉRATURES À * CE SOIR *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="1"/></srai></template></category>
+<category><pattern>TEMPÉRATURES À * CE SOIR</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="1"/></srai></template></category>
+<category><pattern>TEMPÉRATURES À * DE * LA * SOIRÉE *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="1"/></srai></template></category>
+<category><pattern>TEMPÉRATURES À * DE * LA * SOIRÉE</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="1"/></srai></template></category>
+<category><pattern>TEMPÉRATURES À * DE * LA SOIRÉE *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="1"/></srai></template></category>
+<category><pattern>TEMPÉRATURES À * DE * LA SOIRÉE</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="1"/></srai></template></category>
+<category><pattern>TEMPÉRATURES À * DE LA * SOIRÉE *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="1"/></srai></template></category>
+<category><pattern>TEMPÉRATURES À * DE LA * SOIRÉE</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="1"/></srai></template></category>
+<category><pattern>TEMPÉRATURES À * DE LA SOIRÉE *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="1"/></srai></template></category>
+<category><pattern>TEMPÉRATURES À * DE LA SOIRÉE</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="1"/></srai></template></category>
+<category><pattern>TEMPÉRATURES À * DU * SOIR *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="1"/></srai></template></category>
+<category><pattern>TEMPÉRATURES À * DU * SOIR</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="1"/></srai></template></category>
+<category><pattern>TEMPÉRATURES À * DU SOIR *</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="1"/></srai></template></category>
+<category><pattern>TEMPÉRATURES À * DU SOIR</pattern><template><srai>LOCATED8WEATHERTONIGHT <star index="1"/></srai></template></category>
+
+
+<category>
+<pattern>LOCATED8WEATHERTODAY *</pattern>
+<template>
+	Il fera beau aujourd'hui à <star/>
+</template>
+</category>
+
+<category><pattern>* MÉTÉO * AUJOURD * HUI * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="5"/></srai></template></category>
+<category><pattern>* MÉTÉO * AUJOURD * HUI À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="4"/></srai></template></category>
+<category><pattern>* MÉTÉO * AUJOURD HUI * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="4"/></srai></template></category>
+<category><pattern>* MÉTÉO * AUJOURD HUI À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* MÉTÉO * CE * MATIN * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="5"/></srai></template></category>
+<category><pattern>* MÉTÉO * CE * MATIN À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="4"/></srai></template></category>
+<category><pattern>* MÉTÉO * CE MATIN * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="4"/></srai></template></category>
+<category><pattern>* MÉTÉO * CE MATIN À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* MÉTÉO * CETTE * APRÈS-MIDI * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="5"/></srai></template></category>
+<category><pattern>* MÉTÉO * CETTE * APRÈS-MIDI À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="4"/></srai></template></category>
+<category><pattern>* MÉTÉO * CETTE APRÈS-MIDI * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="4"/></srai></template></category>
+<category><pattern>* MÉTÉO * CETTE APRÈS-MIDI À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* MÉTÉO * DU * JOUR * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="5"/></srai></template></category>
+<category><pattern>* MÉTÉO * DU * JOUR À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="4"/></srai></template></category>
+<category><pattern>* MÉTÉO * DU JOUR * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="4"/></srai></template></category>
+<category><pattern>* MÉTÉO * DU JOUR À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* MÉTÉO * À * AUJOURD * HUI *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* MÉTÉO * À * AUJOURD * HUI</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* MÉTÉO * À * AUJOURD HUI *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* MÉTÉO * À * AUJOURD HUI</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* MÉTÉO * À * CE * MATIN *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* MÉTÉO * À * CE * MATIN</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* MÉTÉO * À * CE MATIN *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* MÉTÉO * À * CE MATIN</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* MÉTÉO * À * CETTE * APRÈS-MIDI *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* MÉTÉO * À * CETTE * APRÈS-MIDI</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* MÉTÉO * À * CETTE APRÈS-MIDI *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* MÉTÉO * À * CETTE APRÈS-MIDI</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* MÉTÉO * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* MÉTÉO AUJOURD * HUI * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="4"/></srai></template></category>
+<category><pattern>* MÉTÉO AUJOURD * HUI À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* MÉTÉO AUJOURD HUI * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* MÉTÉO AUJOURD HUI À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>* MÉTÉO CE * MATIN * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="4"/></srai></template></category>
+<category><pattern>* MÉTÉO CE * MATIN À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* MÉTÉO CE MATIN * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* MÉTÉO CE MATIN À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>* MÉTÉO CETTE * APRÈS-MIDI * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="4"/></srai></template></category>
+<category><pattern>* MÉTÉO CETTE * APRÈS-MIDI À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* MÉTÉO CETTE APRÈS-MIDI * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* MÉTÉO CETTE APRÈS-MIDI À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>* MÉTÉO DU * JOUR * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="4"/></srai></template></category>
+<category><pattern>* MÉTÉO DU * JOUR À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* MÉTÉO DU JOUR * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* MÉTÉO DU JOUR À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>* MÉTÉO À * AUJOURD * HUI *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>* MÉTÉO À * AUJOURD * HUI</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>* MÉTÉO À * AUJOURD HUI *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>* MÉTÉO À * AUJOURD HUI</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>* MÉTÉO À * CE * MATIN *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>* MÉTÉO À * CE * MATIN</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>* MÉTÉO À * CE MATIN *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>* MÉTÉO À * CE MATIN</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>* MÉTÉO À * CETTE * APRÈS-MIDI *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>* MÉTÉO À * CETTE * APRÈS-MIDI</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>* MÉTÉO À * CETTE APRÈS-MIDI *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>* MÉTÉO À * CETTE APRÈS-MIDI</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>* MÉTÉO À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>* TEMPS * AUJOURD * HUI * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="5"/></srai></template></category>
+<category><pattern>* TEMPS * AUJOURD * HUI À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="4"/></srai></template></category>
+<category><pattern>* TEMPS * AUJOURD HUI * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="4"/></srai></template></category>
+<category><pattern>* TEMPS * AUJOURD HUI À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* TEMPS * CE * MATIN * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="5"/></srai></template></category>
+<category><pattern>* TEMPS * CE * MATIN À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="4"/></srai></template></category>
+<category><pattern>* TEMPS * CE MATIN * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="4"/></srai></template></category>
+<category><pattern>* TEMPS * CE MATIN À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* TEMPS * CETTE * APRÈS-MIDI * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="5"/></srai></template></category>
+<category><pattern>* TEMPS * CETTE * APRÈS-MIDI À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="4"/></srai></template></category>
+<category><pattern>* TEMPS * CETTE APRÈS-MIDI * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="4"/></srai></template></category>
+<category><pattern>* TEMPS * CETTE APRÈS-MIDI À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* TEMPS * À * AUJOURD * HUI *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* TEMPS * À * AUJOURD * HUI</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* TEMPS * À * AUJOURD HUI *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* TEMPS * À * AUJOURD HUI</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* TEMPS * À * CE * MATIN *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* TEMPS * À * CE * MATIN</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* TEMPS * À * CE MATIN *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* TEMPS * À * CE MATIN</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* TEMPS * À * CETTE * APRÈS-MIDI *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* TEMPS * À * CETTE * APRÈS-MIDI</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* TEMPS * À * CETTE APRÈS-MIDI *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* TEMPS * À * CETTE APRÈS-MIDI</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* TEMPS * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* TEMPS AUJOURD * HUI * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="4"/></srai></template></category>
+<category><pattern>* TEMPS AUJOURD * HUI À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* TEMPS AUJOURD HUI * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* TEMPS AUJOURD HUI À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>* TEMPS CE * MATIN * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="4"/></srai></template></category>
+<category><pattern>* TEMPS CE * MATIN À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* TEMPS CE MATIN * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* TEMPS CE MATIN À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>* TEMPS CETTE * APRÈS-MIDI * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="4"/></srai></template></category>
+<category><pattern>* TEMPS CETTE * APRÈS-MIDI À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* TEMPS CETTE APRÈS-MIDI * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* TEMPS CETTE APRÈS-MIDI À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>* TEMPS À * AUJOURD * HUI *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>* TEMPS À * AUJOURD * HUI</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>* TEMPS À * AUJOURD HUI *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>* TEMPS À * AUJOURD HUI</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>* TEMPS À * CE * MATIN *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>* TEMPS À * CE * MATIN</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>* TEMPS À * CE MATIN *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>* TEMPS À * CE MATIN</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>* TEMPS À * CETTE * APRÈS-MIDI *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>* TEMPS À * CETTE * APRÈS-MIDI</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>* TEMPS À * CETTE APRÈS-MIDI *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>* TEMPS À * CETTE APRÈS-MIDI</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>* TEMPS À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE * AUJOURD * HUI * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="5"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE * AUJOURD * HUI À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="4"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE * AUJOURD HUI * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="4"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE * AUJOURD HUI À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE * CE * MATIN * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="5"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE * CE * MATIN À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="4"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE * CE MATIN * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="4"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE * CE MATIN À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE * CETTE * APRÈS-MIDI * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="5"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE * CETTE * APRÈS-MIDI À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="4"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE * CETTE APRÈS-MIDI * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="4"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE * CETTE APRÈS-MIDI À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE * À * AUJOURD * HUI *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE * À * AUJOURD * HUI</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE * À * AUJOURD HUI *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE * À * AUJOURD HUI</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE * À * CE * MATIN *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE * À * CE * MATIN</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE * À * CE MATIN *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE * À * CE MATIN</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE * À * CETTE * APRÈS-MIDI *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE * À * CETTE * APRÈS-MIDI</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE * À * CETTE APRÈS-MIDI *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE * À * CETTE APRÈS-MIDI</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE AUJOURD * HUI * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="4"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE AUJOURD * HUI À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE AUJOURD HUI * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE AUJOURD HUI À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE CE * MATIN * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="4"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE CE * MATIN À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE CE MATIN * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE CE MATIN À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE CETTE * APRÈS-MIDI * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="4"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE CETTE * APRÈS-MIDI À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE CETTE APRÈS-MIDI * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE CETTE APRÈS-MIDI À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE À * AUJOURD * HUI *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE À * AUJOURD * HUI</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE À * AUJOURD HUI *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE À * AUJOURD HUI</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE À * CE * MATIN *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE À * CE * MATIN</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE À * CE MATIN *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE À * CE MATIN</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE À * CETTE * APRÈS-MIDI *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE À * CETTE * APRÈS-MIDI</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE À * CETTE APRÈS-MIDI *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE À * CETTE APRÈS-MIDI</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>* TEMPÉRATURE À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES * AUJOURD * HUI * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="5"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES * AUJOURD * HUI À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="4"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES * AUJOURD HUI * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="4"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES * AUJOURD HUI À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES * CE * MATIN * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="5"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES * CE * MATIN À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="4"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES * CE MATIN * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="4"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES * CE MATIN À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES * CETTE * APRÈS-MIDI * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="5"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES * CETTE * APRÈS-MIDI À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="4"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES * CETTE APRÈS-MIDI * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="4"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES * CETTE APRÈS-MIDI À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES * À * AUJOURD * HUI *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES * À * AUJOURD * HUI</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES * À * AUJOURD HUI *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES * À * AUJOURD HUI</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES * À * CE * MATIN *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES * À * CE * MATIN</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES * À * CE MATIN *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES * À * CE MATIN</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES * À * CETTE * APRÈS-MIDI *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES * À * CETTE * APRÈS-MIDI</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES * À * CETTE APRÈS-MIDI *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES * À * CETTE APRÈS-MIDI</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES AUJOURD * HUI * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="4"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES AUJOURD * HUI À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES AUJOURD HUI * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES AUJOURD HUI À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES CE * MATIN * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="4"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES CE * MATIN À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES CE MATIN * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES CE MATIN À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES CETTE * APRÈS-MIDI * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="4"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES CETTE * APRÈS-MIDI À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES CETTE APRÈS-MIDI * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES CETTE APRÈS-MIDI À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES À * AUJOURD * HUI *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES À * AUJOURD * HUI</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES À * AUJOURD HUI *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES À * AUJOURD HUI</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES À * CE * MATIN *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES À * CE * MATIN</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES À * CE MATIN *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES À * CE MATIN</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES À * CETTE * APRÈS-MIDI *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES À * CETTE * APRÈS-MIDI</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES À * CETTE APRÈS-MIDI *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES À * CETTE APRÈS-MIDI</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>* TEMPÉRATURES À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>MÉTÉO * AUJOURD * HUI * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="4"/></srai></template></category>
+<category><pattern>MÉTÉO * AUJOURD * HUI À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>MÉTÉO * AUJOURD HUI * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>MÉTÉO * AUJOURD HUI À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>MÉTÉO * CE * MATIN * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="4"/></srai></template></category>
+<category><pattern>MÉTÉO * CE * MATIN À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>MÉTÉO * CE MATIN * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>MÉTÉO * CE MATIN À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>MÉTÉO * CETTE * APRÈS-MIDI * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="4"/></srai></template></category>
+<category><pattern>MÉTÉO * CETTE * APRÈS-MIDI À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>MÉTÉO * CETTE APRÈS-MIDI * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>MÉTÉO * CETTE APRÈS-MIDI À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>MÉTÉO * DU * JOUR * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="4"/></srai></template></category>
+<category><pattern>MÉTÉO * DU * JOUR À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>MÉTÉO * DU JOUR * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>MÉTÉO * DU JOUR À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>MÉTÉO * À * AUJOURD * HUI *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>MÉTÉO * À * AUJOURD * HUI</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>MÉTÉO * À * AUJOURD HUI *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>MÉTÉO * À * AUJOURD HUI</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>MÉTÉO * À * CE * MATIN *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>MÉTÉO * À * CE * MATIN</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>MÉTÉO * À * CE MATIN *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>MÉTÉO * À * CE MATIN</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>MÉTÉO * À * CETTE * APRÈS-MIDI *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>MÉTÉO * À * CETTE * APRÈS-MIDI</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>MÉTÉO * À * CETTE APRÈS-MIDI *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>MÉTÉO * À * CETTE APRÈS-MIDI</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>MÉTÉO * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>MÉTÉO AUJOURD * HUI * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>MÉTÉO AUJOURD * HUI À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>MÉTÉO AUJOURD HUI * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>MÉTÉO AUJOURD HUI À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="1"/></srai></template></category>
+<category><pattern>MÉTÉO CE * MATIN * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>MÉTÉO CE * MATIN À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>MÉTÉO CE MATIN * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>MÉTÉO CE MATIN À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="1"/></srai></template></category>
+<category><pattern>MÉTÉO CETTE * APRÈS-MIDI * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>MÉTÉO CETTE * APRÈS-MIDI À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>MÉTÉO CETTE APRÈS-MIDI * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>MÉTÉO CETTE APRÈS-MIDI À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="1"/></srai></template></category>
+<category><pattern>MÉTÉO DU * JOUR * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>MÉTÉO DU * JOUR À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>MÉTÉO DU JOUR * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>MÉTÉO DU JOUR À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="1"/></srai></template></category>
+<category><pattern>MÉTÉO À * AUJOURD * HUI *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="1"/></srai></template></category>
+<category><pattern>MÉTÉO À * AUJOURD * HUI</pattern><template><srai>LOCATED8WEATHERTODAY <star index="1"/></srai></template></category>
+<category><pattern>MÉTÉO À * AUJOURD HUI *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="1"/></srai></template></category>
+<category><pattern>MÉTÉO À * AUJOURD HUI</pattern><template><srai>LOCATED8WEATHERTODAY <star index="1"/></srai></template></category>
+<category><pattern>MÉTÉO À * CE * MATIN *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="1"/></srai></template></category>
+<category><pattern>MÉTÉO À * CE * MATIN</pattern><template><srai>LOCATED8WEATHERTODAY <star index="1"/></srai></template></category>
+<category><pattern>MÉTÉO À * CE MATIN *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="1"/></srai></template></category>
+<category><pattern>MÉTÉO À * CE MATIN</pattern><template><srai>LOCATED8WEATHERTODAY <star index="1"/></srai></template></category>
+<category><pattern>MÉTÉO À * CETTE * APRÈS-MIDI *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="1"/></srai></template></category>
+<category><pattern>MÉTÉO À * CETTE * APRÈS-MIDI</pattern><template><srai>LOCATED8WEATHERTODAY <star index="1"/></srai></template></category>
+<category><pattern>MÉTÉO À * CETTE APRÈS-MIDI *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="1"/></srai></template></category>
+<category><pattern>MÉTÉO À * CETTE APRÈS-MIDI</pattern><template><srai>LOCATED8WEATHERTODAY <star index="1"/></srai></template></category>
+<category><pattern>MÉTÉO À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="1"/></srai></template></category>
+<category><pattern>TEMPS * AUJOURD * HUI * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="4"/></srai></template></category>
+<category><pattern>TEMPS * AUJOURD * HUI À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>TEMPS * AUJOURD HUI * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>TEMPS * AUJOURD HUI À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>TEMPS * CE * MATIN * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="4"/></srai></template></category>
+<category><pattern>TEMPS * CE * MATIN À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>TEMPS * CE MATIN * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>TEMPS * CE MATIN À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>TEMPS * CETTE * APRÈS-MIDI * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="4"/></srai></template></category>
+<category><pattern>TEMPS * CETTE * APRÈS-MIDI À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>TEMPS * CETTE APRÈS-MIDI * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>TEMPS * CETTE APRÈS-MIDI À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>TEMPS * À * AUJOURD * HUI *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>TEMPS * À * AUJOURD * HUI</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>TEMPS * À * AUJOURD HUI *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>TEMPS * À * AUJOURD HUI</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>TEMPS * À * CE * MATIN *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>TEMPS * À * CE * MATIN</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>TEMPS * À * CE MATIN *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>TEMPS * À * CE MATIN</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>TEMPS * À * CETTE * APRÈS-MIDI *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>TEMPS * À * CETTE * APRÈS-MIDI</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>TEMPS * À * CETTE APRÈS-MIDI *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>TEMPS * À * CETTE APRÈS-MIDI</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>TEMPS * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>TEMPS AUJOURD * HUI * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>TEMPS AUJOURD * HUI À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>TEMPS AUJOURD HUI * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>TEMPS AUJOURD HUI À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="1"/></srai></template></category>
+<category><pattern>TEMPS CE * MATIN * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>TEMPS CE * MATIN À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>TEMPS CE MATIN * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>TEMPS CE MATIN À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="1"/></srai></template></category>
+<category><pattern>TEMPS CETTE * APRÈS-MIDI * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>TEMPS CETTE * APRÈS-MIDI À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>TEMPS CETTE APRÈS-MIDI * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>TEMPS CETTE APRÈS-MIDI À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="1"/></srai></template></category>
+<category><pattern>TEMPS À * AUJOURD * HUI *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="1"/></srai></template></category>
+<category><pattern>TEMPS À * AUJOURD * HUI</pattern><template><srai>LOCATED8WEATHERTODAY <star index="1"/></srai></template></category>
+<category><pattern>TEMPS À * AUJOURD HUI *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="1"/></srai></template></category>
+<category><pattern>TEMPS À * AUJOURD HUI</pattern><template><srai>LOCATED8WEATHERTODAY <star index="1"/></srai></template></category>
+<category><pattern>TEMPS À * CE * MATIN *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="1"/></srai></template></category>
+<category><pattern>TEMPS À * CE * MATIN</pattern><template><srai>LOCATED8WEATHERTODAY <star index="1"/></srai></template></category>
+<category><pattern>TEMPS À * CE MATIN *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="1"/></srai></template></category>
+<category><pattern>TEMPS À * CE MATIN</pattern><template><srai>LOCATED8WEATHERTODAY <star index="1"/></srai></template></category>
+<category><pattern>TEMPS À * CETTE * APRÈS-MIDI *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="1"/></srai></template></category>
+<category><pattern>TEMPS À * CETTE * APRÈS-MIDI</pattern><template><srai>LOCATED8WEATHERTODAY <star index="1"/></srai></template></category>
+<category><pattern>TEMPS À * CETTE APRÈS-MIDI *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="1"/></srai></template></category>
+<category><pattern>TEMPS À * CETTE APRÈS-MIDI</pattern><template><srai>LOCATED8WEATHERTODAY <star index="1"/></srai></template></category>
+<category><pattern>TEMPS À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="1"/></srai></template></category>
+<category><pattern>TEMPÉRATURE * AUJOURD * HUI * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="4"/></srai></template></category>
+<category><pattern>TEMPÉRATURE * AUJOURD * HUI À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>TEMPÉRATURE * AUJOURD HUI * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>TEMPÉRATURE * AUJOURD HUI À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURE * CE * MATIN * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="4"/></srai></template></category>
+<category><pattern>TEMPÉRATURE * CE * MATIN À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>TEMPÉRATURE * CE MATIN * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>TEMPÉRATURE * CE MATIN À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURE * CETTE * APRÈS-MIDI * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="4"/></srai></template></category>
+<category><pattern>TEMPÉRATURE * CETTE * APRÈS-MIDI À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>TEMPÉRATURE * CETTE APRÈS-MIDI * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>TEMPÉRATURE * CETTE APRÈS-MIDI À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURE * À * AUJOURD * HUI *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURE * À * AUJOURD * HUI</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURE * À * AUJOURD HUI *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURE * À * AUJOURD HUI</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURE * À * CE * MATIN *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURE * À * CE * MATIN</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURE * À * CE MATIN *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURE * À * CE MATIN</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURE * À * CETTE * APRÈS-MIDI *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURE * À * CETTE * APRÈS-MIDI</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURE * À * CETTE APRÈS-MIDI *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURE * À * CETTE APRÈS-MIDI</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURE * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURE AUJOURD * HUI * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>TEMPÉRATURE AUJOURD * HUI À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURE AUJOURD HUI * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURE AUJOURD HUI À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="1"/></srai></template></category>
+<category><pattern>TEMPÉRATURE CE * MATIN * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>TEMPÉRATURE CE * MATIN À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURE CE MATIN * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURE CE MATIN À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="1"/></srai></template></category>
+<category><pattern>TEMPÉRATURE CETTE * APRÈS-MIDI * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>TEMPÉRATURE CETTE * APRÈS-MIDI À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURE CETTE APRÈS-MIDI * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURE CETTE APRÈS-MIDI À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="1"/></srai></template></category>
+<category><pattern>TEMPÉRATURE À * AUJOURD * HUI *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="1"/></srai></template></category>
+<category><pattern>TEMPÉRATURE À * AUJOURD * HUI</pattern><template><srai>LOCATED8WEATHERTODAY <star index="1"/></srai></template></category>
+<category><pattern>TEMPÉRATURE À * AUJOURD HUI *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="1"/></srai></template></category>
+<category><pattern>TEMPÉRATURE À * AUJOURD HUI</pattern><template><srai>LOCATED8WEATHERTODAY <star index="1"/></srai></template></category>
+<category><pattern>TEMPÉRATURE À * CE * MATIN *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="1"/></srai></template></category>
+<category><pattern>TEMPÉRATURE À * CE * MATIN</pattern><template><srai>LOCATED8WEATHERTODAY <star index="1"/></srai></template></category>
+<category><pattern>TEMPÉRATURE À * CE MATIN *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="1"/></srai></template></category>
+<category><pattern>TEMPÉRATURE À * CE MATIN</pattern><template><srai>LOCATED8WEATHERTODAY <star index="1"/></srai></template></category>
+<category><pattern>TEMPÉRATURE À * CETTE * APRÈS-MIDI *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="1"/></srai></template></category>
+<category><pattern>TEMPÉRATURE À * CETTE * APRÈS-MIDI</pattern><template><srai>LOCATED8WEATHERTODAY <star index="1"/></srai></template></category>
+<category><pattern>TEMPÉRATURE À * CETTE APRÈS-MIDI *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="1"/></srai></template></category>
+<category><pattern>TEMPÉRATURE À * CETTE APRÈS-MIDI</pattern><template><srai>LOCATED8WEATHERTODAY <star index="1"/></srai></template></category>
+<category><pattern>TEMPÉRATURE À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="1"/></srai></template></category>
+<category><pattern>TEMPÉRATURES * AUJOURD * HUI * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="4"/></srai></template></category>
+<category><pattern>TEMPÉRATURES * AUJOURD * HUI À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>TEMPÉRATURES * AUJOURD HUI * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>TEMPÉRATURES * AUJOURD HUI À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURES * CE * MATIN * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="4"/></srai></template></category>
+<category><pattern>TEMPÉRATURES * CE * MATIN À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>TEMPÉRATURES * CE MATIN * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>TEMPÉRATURES * CE MATIN À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURES * CETTE * APRÈS-MIDI * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="4"/></srai></template></category>
+<category><pattern>TEMPÉRATURES * CETTE * APRÈS-MIDI À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>TEMPÉRATURES * CETTE APRÈS-MIDI * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>TEMPÉRATURES * CETTE APRÈS-MIDI À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURES * À * AUJOURD * HUI *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURES * À * AUJOURD * HUI</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURES * À * AUJOURD HUI *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURES * À * AUJOURD HUI</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURES * À * CE * MATIN *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURES * À * CE * MATIN</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURES * À * CE MATIN *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURES * À * CE MATIN</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURES * À * CETTE * APRÈS-MIDI *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURES * À * CETTE * APRÈS-MIDI</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURES * À * CETTE APRÈS-MIDI *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURES * À * CETTE APRÈS-MIDI</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURES * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURES AUJOURD * HUI * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>TEMPÉRATURES AUJOURD * HUI À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURES AUJOURD HUI * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURES AUJOURD HUI À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="1"/></srai></template></category>
+<category><pattern>TEMPÉRATURES CE * MATIN * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>TEMPÉRATURES CE * MATIN À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURES CE MATIN * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURES CE MATIN À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="1"/></srai></template></category>
+<category><pattern>TEMPÉRATURES CETTE * APRÈS-MIDI * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="3"/></srai></template></category>
+<category><pattern>TEMPÉRATURES CETTE * APRÈS-MIDI À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURES CETTE APRÈS-MIDI * À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="2"/></srai></template></category>
+<category><pattern>TEMPÉRATURES CETTE APRÈS-MIDI À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="1"/></srai></template></category>
+<category><pattern>TEMPÉRATURES À * AUJOURD * HUI *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="1"/></srai></template></category>
+<category><pattern>TEMPÉRATURES À * AUJOURD * HUI</pattern><template><srai>LOCATED8WEATHERTODAY <star index="1"/></srai></template></category>
+<category><pattern>TEMPÉRATURES À * AUJOURD HUI *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="1"/></srai></template></category>
+<category><pattern>TEMPÉRATURES À * AUJOURD HUI</pattern><template><srai>LOCATED8WEATHERTODAY <star index="1"/></srai></template></category>
+<category><pattern>TEMPÉRATURES À * CE * MATIN *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="1"/></srai></template></category>
+<category><pattern>TEMPÉRATURES À * CE * MATIN</pattern><template><srai>LOCATED8WEATHERTODAY <star index="1"/></srai></template></category>
+<category><pattern>TEMPÉRATURES À * CE MATIN *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="1"/></srai></template></category>
+<category><pattern>TEMPÉRATURES À * CE MATIN</pattern><template><srai>LOCATED8WEATHERTODAY <star index="1"/></srai></template></category>
+<category><pattern>TEMPÉRATURES À * CETTE * APRÈS-MIDI *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="1"/></srai></template></category>
+<category><pattern>TEMPÉRATURES À * CETTE * APRÈS-MIDI</pattern><template><srai>LOCATED8WEATHERTODAY <star index="1"/></srai></template></category>
+<category><pattern>TEMPÉRATURES À * CETTE APRÈS-MIDI *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="1"/></srai></template></category>
+<category><pattern>TEMPÉRATURES À * CETTE APRÈS-MIDI</pattern><template><srai>LOCATED8WEATHERTODAY <star index="1"/></srai></template></category>
+<category><pattern>TEMPÉRATURES À *</pattern><template><srai>LOCATED8WEATHERTODAY <star index="1"/></srai></template></category>
+
+
+</aiml>
